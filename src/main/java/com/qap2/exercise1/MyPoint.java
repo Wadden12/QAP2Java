@@ -4,6 +4,8 @@ public class MyPoint {
     private int x = 0;
     private int y = 0;
 
+    // Constructors
+
     public MyPoint(){
         this.x = 0;
         this.y = 0;
@@ -14,28 +16,36 @@ public class MyPoint {
         setY(y);
     }
 
+
+    //Setters
     public void setXY(int x,int y)
     {
         this.x = x;
         this.y = y;
     }
 
-    public int getX() {
-        return x;
-    }
 
     public void setX(int x) {
         this.x = x;
+    }
+
+
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    // Getters
+
+    public int getX() {
+        return x;
     }
 
     public int getY() {
         return y;
     }
 
-    public void setY(int y) {
-        this.y = y;
-    }
-
+    // Calculations
     public double distance(int x, int y)
     {
 
@@ -61,6 +71,6 @@ public class MyPoint {
 
     @Override
     public String toString() {
-        return ("Center's ("+this.x + "," + this.y+")");
+        return ("Coordinates are ("+this.x + "," + this.y+")");
     }
 }
