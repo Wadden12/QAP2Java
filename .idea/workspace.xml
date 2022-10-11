@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="135f3c3e-e7aa-4df8-be58-602300f55a2f" name="Changes" comment="Project Start up first myPoint classed added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/TestMyCircle.java" afterDir="false" />
+    <list default="true" id="135f3c3e-e7aa-4df8-be58-602300f55a2f" name="Changes" comment="MyCircle Class added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/TestMyCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/TestMyCircle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665494073429</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MyCircle Class added">
+      <created>1665497990067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665497990067</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Start up first myPoint classed added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Start up first myPoint classed added" />
+    <MESSAGE value="MyCircle Class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyCircle Class added" />
   </component>
 </project>

@@ -81,7 +81,7 @@ public class MyCircle {
 
     @Override
     public String toString() {
-        return ("Centre" + center);
+        return ("Centre" + center + " Radius : " + getRadius());
     }
 
 
