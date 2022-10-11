@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="135f3c3e-e7aa-4df8-be58-602300f55a2f" name="Changes" comment="MyCircle Class added">
+    <list default="true" id="135f3c3e-e7aa-4df8-be58-602300f55a2f" name="Changes" comment="small fix for toString in MyCircle added in TestMyCircle">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/TestMyCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/TestMyCircle.java" afterDir="false" />
@@ -65,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665497990067</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="small fix for toString in MyCircle added in TestMyCircle">
+      <created>1665498439782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665498439782</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +90,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Start up first myPoint classed added" />
     <MESSAGE value="MyCircle Class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyCircle Class added" />
+    <MESSAGE value="small fix for toString in MyCircle added in TestMyCircle" />
+    <option name="LAST_COMMIT_MESSAGE" value="small fix for toString in MyCircle added in TestMyCircle" />
   </component>
 </project>

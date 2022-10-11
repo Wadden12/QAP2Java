@@ -7,7 +7,7 @@ public class MyCircle {
     private int radius = 1;
 
     // Constant
-    final double PI = 3.14;
+    final double PI = Math.PI;
 
 
     // Constructors
@@ -67,7 +67,7 @@ public class MyCircle {
 
     public double getArea(){
 
-        return (PI*(Math.pow(radius,radius)));
+        return (PI*(Math.pow(radius,2)));
     }
 
     public double getCircumference(){
@@ -81,7 +81,7 @@ public class MyCircle {
 
     @Override
     public String toString() {
-        return ("Centre" + center + " Radius : " + getRadius());
+        return ("Centre " + center + " Radius : " + getRadius());
     }
 
 
