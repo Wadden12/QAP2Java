@@ -10,6 +10,8 @@ public class CreditCard {
     public CreditCard(Money limit, Person newCardHolder) {
         this.creditLimit = limit;
         this.owner = newCardHolder;
+        this.balance = new Money(0);
+
     }
 
     public Money getBalance() {
@@ -25,10 +27,22 @@ public class CreditCard {
     }
 
     public void charge(Money amount){
-        this.balance.add(amount);
+        System.out.println("Attempt to charge " + amount);
+        int balanceCheck = balance.add(amount).compareTo(getCreditLimit());
+
+        if(balanceCheck == 1){
+            System.out.println("Exceeds Credit Limit");
+            System.out.println("Balance: " + getBalance());
+            System.exit(0);
+        }
+
+     this.balance = getBalance().add(amount);
+        System.out.println("Charge:" + amount);
     }
 
     public void payment(Money amount){
-        this.balance.subtract(amount);
+        System.out.println("Attempt to pay " + amount);
+       this.balance= getBalance().subtract(amount);
+        System.out.println("Payment " + amount);
     }
 }
