@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="135f3c3e-e7aa-4df8-be58-602300f55a2f" name="Changes" comment="Finished Version 1 of exercise1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/CreditCardDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/Person.java" afterDir="false" />
+    <list default="true" id="135f3c3e-e7aa-4df8-be58-602300f55a2f" name="Changes" comment="Added working progress money class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/CreditCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/CreditCardDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/CreditCardDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/Money.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665506372148</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added working progress money class">
+      <created>1665574293748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665574293749</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +109,7 @@
     <MESSAGE value="MyCircle Class added" />
     <MESSAGE value="small fix for toString in MyCircle added in TestMyCircle" />
     <MESSAGE value="Finished Version 1 of exercise1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Version 1 of exercise1" />
+    <MESSAGE value="Added working progress money class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added working progress money class" />
   </component>
 </project>
