@@ -82,7 +82,7 @@ public class TestMyCircle {
         System.out.println("Third Circle :"  + thirdCircle);
         System.out.println("Forth Circle : " + forthCircle);
         System.out.println("Final distance between two circles is " + Math.round(firstCircle.distance(secondCircle)));
-        System.out.println("Final distance between two cirlce is  "+ Math.round(thirdCircle.distance(forthCircle)));
+        System.out.println("Final distance between two circles  is  "+ Math.round(thirdCircle.distance(forthCircle)));
 
     }
 

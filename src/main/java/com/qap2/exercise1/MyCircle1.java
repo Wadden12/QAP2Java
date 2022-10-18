@@ -43,7 +43,7 @@ public class MyCircle1  extends MyPoint{
     @Override
 
     public String toString(){
-        return("Center " + super.toString() + " Radius : " + getRadius() );
+        return("Center " + super.toString() + " Radius :" + getRadius() );
     }
 
 
