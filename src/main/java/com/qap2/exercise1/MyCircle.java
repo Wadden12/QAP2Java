@@ -65,7 +65,7 @@ public class MyCircle {
 
     // Calculations methods
 
-    public double getArea(){
+    public  double getArea(){
 
         return (PI*(Math.pow(radius,2)));
     }

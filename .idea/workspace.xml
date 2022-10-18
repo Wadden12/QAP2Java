@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="135f3c3e-e7aa-4df8-be58-602300f55a2f" name="Changes" comment="Finished Money and CreditCard class">
+    <list default="true" id="135f3c3e-e7aa-4df8-be58-602300f55a2f" name="Changes" comment="Finished Version1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyCircle1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/CreditCardDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise2/CreditCardDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/MyPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/TestMyCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/TestMyCircle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665597889668</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished Version1">
+      <created>1665601773728</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665601773729</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,21 +126,7 @@
     <MESSAGE value="Finished Version 1 of exercise1" />
     <MESSAGE value="Added working progress money class" />
     <MESSAGE value="Finished Money and CreditCard class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Money and CreditCard class" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/qap2/exercise2/Money.java</url>
-          <line>52</line>
-          <properties class="com.qap2.exercise2.Money" method="add">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Finished Version1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Version1" />
   </component>
 </project>

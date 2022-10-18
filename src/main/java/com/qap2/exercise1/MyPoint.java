@@ -1,6 +1,6 @@
 package com.qap2.exercise1;
 
-public class MyPoint {
+public class  MyPoint {
     private int x = 0;
     private int y = 0;
 
@@ -24,6 +24,11 @@ public class MyPoint {
         this.y = y;
     }
 
+    public void setXY(MyPoint point){
+        this.x = point.x;
+        this.y = point.y;
+    }
+
 
     public void setX(int x) {
         this.x = x;
@@ -39,6 +44,14 @@ public class MyPoint {
 
     public int getX() {
         return x;
+    }
+
+    public double getArea(){
+        return 0;
+    }
+
+    public double getCircumference(){
+        return 0;
     }
 
     public int getY() {
@@ -63,8 +76,8 @@ public class MyPoint {
     }
     public double distance()
     {
-        int xDiff = this.x - 0;
-        int yDiff = this.y - 0;
+        int xDiff = this.x;
+        int yDiff = this.y;
         return Math.sqrt(xDiff*xDiff + yDiff*yDiff);
     }
 
