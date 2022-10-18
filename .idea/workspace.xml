@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="135f3c3e-e7aa-4df8-be58-602300f55a2f" name="Changes" comment="added a version with inheritance" />
+    <list default="true" id="135f3c3e-e7aa-4df8-be58-602300f55a2f" name="Changes" comment="fixed a error">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/TestMyCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qap2/exercise1/TestMyCircle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666115731918</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed a error">
+      <created>1666116098984</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666116098984</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +138,7 @@
     <MESSAGE value="Finished Money and CreditCard class" />
     <MESSAGE value="Finished Version1" />
     <MESSAGE value="added a version with inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a version with inheritance" />
+    <MESSAGE value="fixed a error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a error" />
   </component>
 </project>

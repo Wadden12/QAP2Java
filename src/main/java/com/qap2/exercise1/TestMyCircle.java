@@ -10,17 +10,19 @@ public class TestMyCircle {
 
     public static void main(String[]args){
 
-        MyPoint point1 = new MyPoint(10,10);
-        MyPoint point2 = new MyPoint(5,5);
+        MyPoint thirdCircle = new MyPoint(10,10);
+        MyPoint forthCircle = new MyPoint(5,5);
 
 
-        System.out.println("Point 1 : " + point1);
-        System.out.println("Point 2 : " + point2);
+        System.out.println("Point 1 : " + thirdCircle);
+        System.out.println("Point 2 : " + forthCircle);
 
-        MyCircle firstCircle = new MyCircle(point1, 5);
-        MyCircle secondCircle = new MyCircle(point2, 6);
-        MyPoint thirdCircle = new MyCircle1(10, 10,5);
-        MyPoint forthCircle = new MyCircle1(5, 5, 6);
+        thirdCircle =  new MyCircle1(5);
+        forthCircle = new MyCircle1(6);
+        MyCircle firstCircle = new MyCircle(thirdCircle, 5);
+        MyCircle secondCircle = new MyCircle(forthCircle, 6);
+//        MyPoint thirdCircle = new MyCircle1(10, 10,5);
+//        MyPoint forthCircle = new MyCircle1(5, 5, 6);
 
         System.out.println();
 
@@ -58,7 +60,7 @@ public class TestMyCircle {
 
         System.out.println("Set Circle 1 Center To P2");
 
-        firstCircle.setCenter(point2);
+        firstCircle.setCenter(forthCircle);
         thirdCircle.setXY(forthCircle);
         System.out.println("First Circle : " + firstCircle);
         System.out.println("Second Circle : " + secondCircle);
@@ -68,12 +70,12 @@ public class TestMyCircle {
         System.out.println("TheNew Distance between two circles is " + Math.round(thirdCircle.distance(forthCircle)));
         System.out.println();
 
-        point1.setXY(5,10);
+        thirdCircle.setXY(5,10);
         thirdCircle.setXY(5,10);
         firstCircle.setCenter(new MyPoint(5,10));
         secondCircle.setCenterXY(25, 10);
         forthCircle.setXY(25,10);
-        System.out.println("Set Circle 1 Center to (" + firstCircle.getCenterX() +  "," + firstCircle.getCenterY() + ") and Circle2 to " + point2);
+        System.out.println("Set Circle 1 Center to (" + firstCircle.getCenterX() +  "," + firstCircle.getCenterY() + ") and Circle2 to " + forthCircle);
         System.out.println("Set Circle 3 Center to " +
                 "(" + thirdCircle.getX() +  "," + thirdCircle.getY() + ") " +
                 "and Circle4  Center to (" + forthCircle.getX() + "," + forthCircle.getY() + ")"  );
